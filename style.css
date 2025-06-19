@@ -234,6 +234,7 @@ header {
 .header__navigation-ul {
   display: flex;
   width: 100%;
+  list-style: none;
   justify-content: flex-end;
   gap: var(--space-1);
   a {
@@ -296,6 +297,7 @@ header {
   max-width: 900px;
   display: grid;
   margin: auto;
+  list-style: none;
   border: 1rem solid var(--clr-primary-light-1);
   box-shadow: var(--border-shadow);
   grid-template-areas:
@@ -660,6 +662,9 @@ header {
 .footer__navigation {
   display: flex;
   margin-left: auto;
+  ul {
+    list-style: none;
+  }
   li {
     margin-bottom: var(--m-1);
   }
